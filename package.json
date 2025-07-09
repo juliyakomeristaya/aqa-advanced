@@ -1,0 +1,23 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "description": "Now I can use git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliyakomeristaya/aqa-advanced.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliyakomeristaya/aqa-advanced/issues"
+  },
+  "homepage": "https://github.com/juliyakomeristaya/aqa-advanced#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  },
+  "devDependencies": {}
+}

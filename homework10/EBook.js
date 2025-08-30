@@ -3,10 +3,10 @@ import { Book } from './Book.js';
 export class EBook extends Book {
     constructor (title, author, year, format){
         super(title, author, year);
-        this._Bookformat = format;
+        this._bookFormat = format;
     }
     get bookFormat(){
-        return this._Bookformat;
+        return this._bookFormat;
     }
 
     set bookFormat(format){
@@ -14,10 +14,10 @@ export class EBook extends Book {
             console.log("Format is not valid.");
             return;
         }
-        this._Bookformat = format;
+        this._bookFormat = format;
     }
     get printInfo(){
-        return `Title: ${this._bookTitle}, Author: ${this._bookAuthor}, Year: ${this._bookYear}, Format: ${this._Bookformat}`;
+        return `Title: ${this._bookTitle}, Author: ${this._bookAuthor}, Year: ${this._bookYear}, Format: ${this._bookFormat}`;
     }
 
     static fromBook(bookInstance, format) {

@@ -4,9 +4,9 @@
 	"description": "Now I can use git",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
         "prepare": "husky install",
-        "lint": "npx eslint --fix ."
+        "lint": "npx eslint --fix .",
+        "test": "echo \"No tests specified\" && exit 0"
 	},
 	"repository": {
 		"type": "git",

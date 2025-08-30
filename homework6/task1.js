@@ -1,13 +1,12 @@
-function  rectangleAreaDeclaration (high, width) {
-    return high * width;
+function rectangleAreaDeclaration(high, width) {
+	return high * width;
 }
 
 console.log(rectangleAreaDeclaration(5, 10));
 
-
 const rectangleAreaExpression = function (high, width) {
-    return high * width;
-}
+	return high * width;
+};
 
 console.log(rectangleAreaExpression(5, 10));
 

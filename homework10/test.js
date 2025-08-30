@@ -1,23 +1,23 @@
 class Temperature {
-  constructor(celsius) {
-    this._celsius = celsius;
-  }
+	constructor(celsius) {
+		this._celsius = celsius;
+	}
 
-  get celsius() {
-    return this._celsius;
-  }
+	get celsius() {
+		return this._celsius;
+	}
 
-  set celsius(value) {
-    if (value < -273.15) {
-      console.log("Temperature below absolute zero is not possible.");
-      return;
-    }
-    this._celsius = value;
-  }
+	set celsius(value) {
+		if (value < -273.15) {
+			console.log('Temperature below absolute zero is not possible.');
+			return;
+		}
+		this._celsius = value;
+	}
 
-  get fahrenheit() {
-    return this._celsius * 9 / 5 + 32;
-  }
+	get fahrenheit() {
+		return (this._celsius * 9) / 5 + 32;
+	}
 }
 
 const temp = new Temperature(25);

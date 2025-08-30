@@ -1,24 +1,32 @@
 {
-  "name": "aqa-advanced",
-  "version": "1.0.0",
-  "description": "Now I can use git",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"name": "aqa-advanced",
+	"version": "1.0.0",
+	"description": "Now I can use git",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install",
+        "lint": "npx eslint --fix ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/juliyakomeristaya/aqa-advanced.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/juliyakomeristaya/aqa-advanced/issues"
+	},
+	"homepage": "https://github.com/juliyakomeristaya/aqa-advanced#readme",
+	"dependencies": {
+		"chalk": "^5.4.1"
+	},
+    "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "husky": "^8.0.3",
+    "prettier": "3.0.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/juliyakomeristaya/aqa-advanced.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/juliyakomeristaya/aqa-advanced/issues"
-  },
-  "homepage": "https://github.com/juliyakomeristaya/aqa-advanced#readme",
-  "dependencies": {
-    "chalk": "^5.4.1"
-  },
-  "devDependencies": {},
-  "type": "module"
+	"type": "module"
 }

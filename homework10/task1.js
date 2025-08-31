@@ -15,7 +15,7 @@ console.log(book3.printInfo);
 const eBook1 = new EBook('The Great Gatsby', 'F. Scott Fitzgerald', 1925, 'PDF');
 const eBook2 = new EBook('Pride and Prejudice', 'Jane Austen', 1813, 'EPUB');
 
-eBook1.bookFormat = "";
+eBook1.bookFormat = '';
 
 console.log(eBook1.printInfo);
 

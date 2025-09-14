@@ -35,8 +35,8 @@ describe('Jsonplaceholder tests', () => {
 		test('should edit post by id', async () => {
 			const responseEdit = await axios.put('https://jsonplaceholder.typicode.com/posts/1');
 			{
-				title: 'new title';
-				body: 'new body';
+				('new title');
+				('new body');
 			}
 			expect(responseEdit.status).toEqual(200);
 			expect(responseEdit.data).toHaveProperty('id', 1);
